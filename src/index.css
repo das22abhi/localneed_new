@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Rubik:wght@600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body,#root{
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Raleway',sans-serif;
+    width: 100%;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+#root{
+    width: 90%;
+    position: relative;
+    left: 0;
+}
+button{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.404);
+}
+.header{
+    position: relative;
+}
+.header::after{
+    position: absolute;
+    content: '';
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    background-color: rgb(76, 56, 255);
+    top: -300px;
+    right: -300px;
+    z-index: -1;
+}
+.phoneview{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.363);
+}
+::-webkit-scrollbar{
+    display: none;
+}
