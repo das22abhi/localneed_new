@@ -4,7 +4,7 @@ const latest = [
     {
         img : macbook,
         background : 'bg-pink-100',
-        title : 'Ipad Pro',
+        title : 'macbook Pro',
         price : '$150',
         description : 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy'
     },
