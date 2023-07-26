@@ -6,7 +6,7 @@ const socials = [
     },
     {
         name: 'Instagram',
-        href: 'https://www.instagram.com/localneed.in',
+        href: 'https://instagram.com/localneed.in?igshid=MzRlODBiNWFlZA==',
         src: 'https://cdn-icons-png.flaticon.com/64/2111/2111463.png'
     }, {
         name: 'Facebook',
