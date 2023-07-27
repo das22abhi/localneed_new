@@ -1,7 +1,7 @@
-import ipad from '../assets/ipad-resize.png'
-import ac from '../assets/doodle-5 1.png'
+//import ipad from '../assets/ipad-resize.png'
+//import ac from '../assets/doodle-5 1.png'
 
-const sales = [
+//const sales = [
     {
         img : ac,
         isFreeShipping : true,
